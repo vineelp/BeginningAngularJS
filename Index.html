@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html ng-app>
+<head> 
+	<title>City</title>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js">
+function ClickedMe () {
+	alert("ClickedMe");
+}
+</script>
+</head>
+<body>
+<label>city: <input ng-model="city" type="text" /></label>
+<p>your city is {{city}}</p>
+<p>{{'he'+'llo'}}</p>
+<button ng-click="count = count+1" ng-init="count=0">Submit</button>
+<p>count: {{count}}</p>
+<p>Length of the string "Bangalore": {{"Bangalore".length}}</p>
+<p>Index of G in Bangalore: {{"Bangalore".indexOf('g')}}</p>
+</body>
+</html>
